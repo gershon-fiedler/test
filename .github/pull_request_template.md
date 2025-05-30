@@ -6,7 +6,7 @@
 
 ### 📝 Task / Issue Description
 
-<!-- Summary -->
+<!-- Summary of the task or issue being addressed -->
 
 ---
 
@@ -29,7 +29,8 @@
 <details>
 <summary>🔥 Change Impact Level</summary>
 
-- [ ] 🟢 Low – minor, no risk
+- [ ] ⚪️ No Risk – e.g. README or comment-only changes
+- [ ] 🟢 Low – minor changes, minimal surface area
 - [ ] 🟡 Medium – moderate scope, low risk
 - [ ] 🔴 High – critical or shared systems affected
 </details>
@@ -37,11 +38,12 @@
 ---
 
 <details>
-<summary>🌐 Affected Journey(s) </summary>
+<summary>🌐 Affected Journey(s)</summary>
 
-- [ ] 💬 Default
+- [ ] 💬 AI Conversations
 - [ ] 🤖 AI Coach
 - [ ] 📝 AI Assess
+- [ ] ⚙️ Admin
 - [ ] 🎨 All Themes
 - [ ] Other: _______________________
 </details>
@@ -71,9 +73,11 @@
 - [ ] All Tests Pass
 - [ ] Documentation updated (README, OpenAPI, etc.)
 - [ ] Jira acceptance criteria fully met
+- [ ] Notes for QA added to Jira issue if needed
+- [ ] Tested on live server (if environment-specific behavior applies)
 
-
+<details>
 <summary>📸 Screenshots / Demo (if applicable)</summary>
+
+<!-- Add screenshots or screen recordings -->
 </details>
-
-
