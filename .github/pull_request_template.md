@@ -1,16 +1,12 @@
-<!-- Please follow this template. All PRs must be reviewed by at least one senior developer. -->
+<!-- Please follow this template -->
 
 ### 🏷️ JIRA ID
 
-<!-- Example: CNV-1234 -->
+<!-- CNV-1234 -->
 
 ### 📝 Task / Issue Description
 
-<!--
-Summarize what this PR does.
-Include context from the Jira ticket if needed.
-Mention if it’s part of a larger epic or feature group.
--->
+<!-- Summary -->
 
 ---
 
@@ -41,7 +37,7 @@ Mention if it’s part of a larger epic or feature group.
 ---
 
 <details>
-<summary>🌐 Affected Journeys (select all that apply)</summary>
+<summary>🌐 Affected Journey(s) </summary>
 
 - [ ] 💬 Default
 - [ ] 🤖 AI Coach
@@ -64,34 +60,20 @@ Mention if it’s part of a larger epic or feature group.
 
 ---
 
-<details>
-<summary>📋 PR Checklist</summary>
+### 📋 PR Checklist
 
 <!-- Semantic Release guide: https://learninglocker.atlassian.net/wiki/spaces/CI/pages/1281982498/Semantic+Release -->
 
-- [ ] PR title follows semantic format and includes JIRA ID (`type(scope): summary [CNV-XXXX]`)
+- [ ] PR title follows semantic format (`type(scope): summary [CNV-1234]`)
 - [ ] Code self-reviewed for clarity, organization, and commented where needed
 - [ ] Unused code and debugging removed
 - [ ] Tests added/updated as needed
+- [ ] All Tests Pass
 - [ ] Documentation updated (README, OpenAPI, etc.)
 - [ ] Jira acceptance criteria fully met
-- [ ] CI passes with no new warnings
-</details>
 
----
 
-<details>
 <summary>📸 Screenshots / Demo (if applicable)</summary>
-
-<!-- Upload UI changes, API responses, or workflow behavior -->
-
 </details>
 
----
 
-<details>
-<summary>🧭 How to Test</summary>
-
-<!-- Manual test steps or test plan instructions -->
-
-</details>
